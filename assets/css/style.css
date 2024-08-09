@@ -84,12 +84,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -104,34 +104,34 @@ hgroup,
 menu,
 header,
 section {
-	display: block;
+  display: block;
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+  content: "";
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /*
@@ -147,47 +147,47 @@ Header
 */
 
 header nav {
-	display: flex;
-	justify-content: space-between;
-	background-color: #333;
-	border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  border-radius: 5px;
 }
 
 header ul {
-	list-style-type: none;
-	margin: 0 10px;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
+  list-style-type: none;
+  margin: 0 10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 header ul li {
-	display: inline-block;
-	height: 100%;
-	margin: 0;
+  display: inline-block;
+  height: 100%;
+  margin: 0;
 }
 
 header ul li a {
-	display: inline-block;
-	box-sizing: border-box;
-	height: 100%;
-	padding: 10px 20px;
-	text-align: center;
-	color: white;
-	text-decoration: none;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
 }
 
 header ul li a:hover {
-	background-color: white;
-	color: black;
-	font-weight: bold;
+  background-color: white;
+  color: black;
+  font-weight: bold;
 }
 
 header h1 {
-	margin: 0;
-	padding: 10px 20px;
-	font-size: 18px;
-	color: white;
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
 }
 
 /*
@@ -197,9 +197,9 @@ Grid
 */
 
 .grid-container {
-	display: grid;
-	grid-template-columns: 65% 35%;
-	padding-bottom: 2.5rem;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  padding-bottom: 2.5rem;
 }
 
 /*
@@ -209,17 +209,17 @@ Main content
 */
 
 .main-content {
-	padding: 20px;
+  padding: 20px;
 }
 
 .main-content p {
-	margin-top: 10px;
-	text-align: justify;
+  margin-top: 10px;
+  text-align: justify;
 }
 
 .main-content h2 {
-	font-size: large;
-	font-weight: bold;
+  font-size: large;
+  font-weight: bold;
 }
 
 /*
@@ -229,25 +229,25 @@ Contact
 */
 
 .contact-info {
-	display: flex;
-	flex-direction: column;
-	padding: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .contact-info h2 {
-	font-size: large;
-	font-weight: bold;
+  font-size: large;
+  font-weight: bold;
 }
 
 .contact-info li {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .contact-info img {
-	border: 2px solid #333;
-	width: 200px;
-	margin: 10px 0px;
-	border-radius: 50%;
+  border: 2px solid #333;
+  width: 200px;
+  margin: 10px 0px;
+  border-radius: 50%;
 }
 
 /* 
@@ -257,15 +257,15 @@ Projects
 */
 
 .project {
-	padding: 20px;
+  padding: 20px;
 }
 
 .project p:first-of-type {
-	text-align: start;
+  text-align: start;
 }
 
 .project *:first-child {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 /*
@@ -274,24 +274,24 @@ Publications
 ===========================
 */
 .publications li {
-	padding: 10px;
+  padding: 10px;
 }
 
-.publications li:nth-child(even){
-	background-color: #ddd;
+.publications li:nth-child(even) {
+  background-color: #ddd;
 }
 
 .publications li {
-	display: grid;
-	grid-template-columns: 10% 90%;
+  display: grid;
+  grid-template-columns: 10% 90%;
 }
 
-.article em { 
-	font-style: italic;
+.article em {
+  font-style: italic;
 }
 
-.publications .year{
-	font-weight: bold;
+.publications .year {
+  font-weight: bold;
 }
 
 /*
@@ -300,17 +300,38 @@ Footer
 ===========================
 */
 body {
-	position: relative;
-	min-height: 100vh;
+  position: relative;
+  min-height: 100vh;
 }
 
 footer {
-	box-sizing: border-box;
-	background-color: #888;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 2.5rem;
-	padding: 10px;
-	color: white;
+  box-sizing: border-box;
+  background-color: #888;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  padding: 10px;
+  color: white;
 }
+
+/*
+===========================
+Skip to main content
+===========================
+*/
+.skip-to-main-content {
+  position: absolute;
+  left: -100%;
+  opacity: 0;
+  background-color: white;
+  color: black;
+  font-size: medium;
+}
+
+.skip-to-main-content:focus {
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+}
+
